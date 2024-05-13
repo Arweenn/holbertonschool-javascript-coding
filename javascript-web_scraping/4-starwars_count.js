@@ -2,7 +2,6 @@
 
 const request = require('request');
 const url = process.argv[2];
-const charId = 18;
 let count = 0;
 
 request(url, (err, response, body) => {
